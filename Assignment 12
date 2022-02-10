@@ -1,0 +1,11 @@
+name=input('enter the name:')
+group=input('enter the group:')
+Computer=int(input('enter the marks in computer:'))
+Electronic=int(input('enter the marks in Electronic:'))
+Maths=int(input('enter the marks in Maths:'))
+English=int(input('enter the marks in English:'))
+Telugu=int(input('enter the marks in Telugu:'))
+if Computer>=36 and Electronic>=36 and Maths>=37 and English>=37 and Telugu>=35:
+    print(name,group,'pass')
+else:
+    print(name,group,'fail')
